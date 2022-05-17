@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Macondo&family=Merriweather:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,400;1,200&family=Shizuru&family=Work+Sans:wght@300&family=Yuji+Hentaigana+Akebono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>cssMemSlider</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="slider">
+                <input type="radio" name="mem-slider" id="slide-1" checked>
+                <input type="radio" name="mem-slider" id="slide-2">
+                <input type="radio" name="mem-slider" id="slide-3">
+                <input type="radio" name="mem-slider" id="slide-4">
+                <input type="radio" name="mem-slider" id="slide-5">
+                <div class="slider-container">
+                    <ul class="slider-img">
+                        <li class="slider-img__slide">
+                            <img src="./img/1.png" alt="1" class="img-mem">
+                        </li>
+                        <li  class="slider-img__slide">
+                            <img src="./img/6.png" alt="2" class="img-mem second-img">
+                        </li>
+                        <li class="slider-img__slide">
+                            <img src="./img/5.png" alt="3" class="img-mem">
+                        </li>
+                        <li  class="slider-img__slide">
+                            <img src="./img/7.png" alt="4" class="img-mem">
+                        </li>
+                        <li  class="slider-img__slide">
+                            <img src="./img/8.png" alt="5" class="img-mem">
+                        </li>
+                    </ul>
+                </div>
+                <ul class="slider-nav">
+                    <li>
+                        <label for="slide-1">
+                            <span class="slider-nav__btn"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="slide-2">
+                            <span class="slider-nav__btn"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="slide-3">
+                            <span class="slider-nav__btn"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="slide-4">
+                            <span class="slider-nav__btn"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="slide-5">
+                            <span class="slider-nav__btn"></span>
+                        </label>
+                    </li>
+                </ul>
+                <div class="description-container">
+                    <ul class="description">
+                        <li  class="dscr"> First mem</li>
+                        <li class="dscr">Second mem</li>
+                        <li  class="dscr">Third mem</li>
+                        <li class="dscr">Fourth mem</li>
+                        <li class="dscr">Fifth mem</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
